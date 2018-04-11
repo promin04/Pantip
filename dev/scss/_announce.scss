@@ -1,0 +1,47 @@
+.col-event {
+    position: relative;
+    z-index: 10;
+    clear: left;
+    overflow: hidden;
+    zoom: 1;
+    margin-bottom: 13px;
+    background: none;
+    border: none;
+    float: none;
+
+    .col-event-inner {
+      background: #35335a;
+      border: 1px solid #25223C;
+      border-bottom-width: 3px;
+    }
+
+    .annouce-ribbon {
+      background-position: 0px -88px !important;
+    }
+
+    .event-ribbon {
+      background: url("https://ptcdn.info/images/icon-ribbon.png") no-repeat 0px 0px;
+      display: block;
+      width: 57px;
+      height: 36px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+
+    .event-in-item {
+      border-bottom: solid 1px #332E52;
+      background: #403C69;
+      padding: 9px 10px 9px 48px;
+      position: relative;
+    }
+
+    a {
+        text-decoration: none;
+        color: #dbdbdb;
+      strong {
+        color: #E5C700;
+      }
+
+    }
+}

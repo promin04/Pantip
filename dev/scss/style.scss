@@ -1,5 +1,37 @@
-$primary: #006699;
+$bg-color: #3c3962;
+$bg-title: #201e34;
 
-h2 {
-	color: $primary;
+@import 'node_modules/react-tabs/style/react-tabs.scss';
+@import 'header';
+@import 'navbar';
+@import 'announce';
+@import 'title';
+@import 'review';
+@import 'recommandTabs';
+@import 'allRoom';
+@import 'topic';
+@import 'comment';
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.25em;
+	font-family: Arial, Helvetica, Sans-serif, Geneva, Tahoma;
+	font-size: 87.5%;
+	background: $bg-color;
+	color: white;
+	min-width: 1045px;
+}
+
+.relative {
+    position: relative;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+  max-width: 1200px;
+	min-width: 980px;
+	height: 100%;
+	margin: auto;
 }

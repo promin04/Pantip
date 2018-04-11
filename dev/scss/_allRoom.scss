@@ -1,0 +1,245 @@
+.all-room-wrapper {
+  border: 1px solid #6C73A6;
+  min-height: 1096px;
+  background: #2D2A49;
+  position: relative;
+  z-index: 10;
+  clear: left;
+  overflow: hidden;
+  zoom: 1;
+
+  .event-in-item-newicon {
+    font-size: 11px !important;
+    background: #ffdc52;
+    border: 1px solid #ffffff;
+    border-radius: 3px 3px 3px 3px;
+    color: #000000;
+    font-style: normal;
+    padding: 2px 4px 2px 5px;
+    margin-left: 4px;
+  }
+
+  .post-item.admin-item {
+    font-size: 1em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: solid 1px #413B69;
+
+    .post-item-title {
+      line-height: 1em;
+      word-wrap: break-word;
+      position: relative;
+      z-index: 20;
+
+      a {
+          color: #D8CA6B !important;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+      }
+    }
+  }
+
+
+
+  .post-item {
+    padding: 8px 10px 8px 27px;
+    font-size: 1.143em;
+    color: #eeeeee;
+    position: relative;
+    border-bottom: 1px solid #312e4f;
+
+    .post-item-status-i {
+      display: inline-block;
+      zoom: 1;
+      margin-right: 2px;
+      position: relative;
+      z-index: 25;
+      padding-left: 16px;
+    }
+
+    .post-item-title {
+      line-height: 1em;
+      word-wrap: break-word;
+      position: relative;
+      z-index: 20;
+
+      a {
+          color: #dbdbdb !important;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+      }
+    }
+
+    .post-item-by {
+      font-size: 0.813em;
+      color: #7e79ad;
+      line-height: 20px;
+    }
+
+    .post-item-taglist {
+      float: right;
+      width: auto;
+    }
+
+    .tag-item {
+      margin-left: 5px;
+      margin-bottom: 1px;
+      float: right;
+    }
+
+    .tag-title {
+      display: block;
+      text-decoration: none;
+      overflow: visible;
+      zoom: 1;
+      white-space: nowrap;
+      float: left;
+      span {
+        border: none !important;
+        background: none;
+        color: #7e79ad;
+        height: auto !important;
+        font-size: 13px;
+        z-index: 20;
+        display: block;
+        float: left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 220px;
+        overflow: hidden;
+
+        em {
+            position: relative;
+            font-style: normal;
+            cursor: pointer;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+      }
+    }
+
+    .post-item-footer {
+      position: absolute;
+      overflow: hidden;
+      display: block;
+      bottom: 9px;
+      right: 10px;
+      z-index: 10;
+    }
+
+  }
+}
+
+.icon-postlist-status {
+  overflow: hidden;
+  position: absolute;
+  margin: 3px 4px 0px 0px;
+  left: 0px;
+  zoom: 1;
+  height: 12px;
+  width: 12px;
+  background: url("https://ptcdn.info/images/icon-post-list-status.png") no-repeat 0px 0px;
+}
+.all-room-filter {
+  background: none repeat scroll 0 0 #1F1D33;
+  min-width: 500px;
+  position: relative;
+  z-index: 60;
+  min-height: 45px;
+  padding: 5px 0px 5px 0px;
+
+  .first-filter {
+    margin: 7px 15px 5px 26px;
+    float: right;
+    list-style: none;
+  }
+
+  .second-filter {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    zoom: 1;
+    margin: 7px 5px 5px 15px;
+    float: left;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0 5px 0 -1px;
+    padding: 0;
+    font-family: inherit;
+    font-weight: normal;
+    position: relative;
+    z-index: 1000;
+
+    li{
+      padding: 0px 0px 0px 0px;
+      background-color: #3F3967;
+
+      a {
+        display: block;
+        padding: 6px 7px 6px 23px;
+        text-decoration: none;
+        color: #9d89cb;
+      }
+    }
+  }
+
+  .nav-li-first {
+    border-left: 1px solid #5e599e;
+    border-right: 1px solid #5e599e;
+    border-top: 1px solid #5e599e;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .nav-li-last {
+    border-bottom: 1px solid #5e599e;
+    border-right: 1px solid #5e599e;
+    border-left: 1px solid #5e599e;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+  }
+
+  .nav-first {
+    border: 1px solid #5E599E;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .e-filter-mode-view {
+    position: absolute !important;
+  }
+
+  .select:hover {
+    color: #D6B149
+  }
+
+  .grid-disappear {
+    display: none;
+  }
+
+}
+
+.view-list {
+  background: url("https://ptcdn.info/images/icon-post-type.png") 0 -423px no-repeat;
+}
+
+.post-all {
+  background: url("https://ptcdn.info/images/icon-post-type.png") 0px -23px no-repeat;
+}
+
+.view-list.select {
+  background-position: 0 -398px;
+}
+
+.post-all.select {
+  background-position: 0 2px;
+}

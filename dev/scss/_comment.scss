@@ -1,0 +1,50 @@
+
+.icon-header-badge3 {
+  background: url("https://ptcdn.info/images/icon-header-badge3_grayscale_2017.png") no-repeat 0px 0px;
+}
+
+.icon-header-badge3.chat {
+    background-position: 0px -60px;
+}
+
+.pageno-title {
+    text-align: left;
+    line-height: 30px;
+    font-size: 0.929em;
+    position: relative;
+    padding: 0px;
+    margin: 25px 0px 10px 0px;
+
+    .icon-header-badge3 {
+      width: 24px;
+      height: 25px;
+      display: block;
+      position: absolute;
+      top: 4px;
+      left: 10px;
+    }
+
+
+    .title {
+      color: #bdb6d5;
+      background: #3C3963;
+      position: relative;
+      z-index: 10;
+      padding: 0px 20px 0px 45px;
+      white-space: nowrap;
+      margin-left: 27px;
+      display: inline-block;
+      zoom: 1;
+    }
+
+    .pageno-title-line {
+        position: absolute;
+        border-bottom: solid 1px #686595;
+        top: 16px;
+        left: 0px;
+        width: 100%;
+        left: 0px;
+        z-index: 5;
+        line-height: 1px;
+    }
+}

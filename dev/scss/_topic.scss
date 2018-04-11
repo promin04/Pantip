@@ -1,0 +1,267 @@
+
+.topic.comment {
+  background: #222244 !important;
+}
+
+.topic {
+  margin-top: 50px;
+  padding-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 0px;
+  background: #193366;
+  position: relative;
+  border-radius: 2px;
+  border: solid 1px #8E8BA7;
+  box-shadow: 1px 2px 8px #221F40;
+
+  .topic-number {
+    color: #D3C69A;
+    font-size: 13px;
+    opacity: 0.5;
+    filter: alpha(opacity =50);
+    zoom: 1;
+    }
+
+  .topic-tag-wrapper {
+    overflow: hidden;
+    zoom: 1;
+    font-size: 0.929em;
+
+    .tag-item {
+      float: left;
+      padding: 2px 5px 2px 5px;
+      margin: 5px 5px 0 0;
+      background: #0e2d61;
+      border: solid 1px #395d98;
+      color: #c0c0c0;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+  }
+
+  .tag-item {
+    position: relative;
+    float: left;
+    cursor: pointer;
+  }
+
+  .topic-favourite {
+    float: right;
+    white-space: nowrap;
+    font-size: 0.929em;
+    position: relative;
+    top: 2px;
+
+    .icon-mini-posttype {
+      top: 2px;
+    }
+  }
+
+  .remark-four-txt {
+    color: #cccccc !important;
+  }
+
+}
+
+.topic-tag,.topic-title,.topic-story,.topic-story-footer,.topic-title-comment {
+  padding-top: 0px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 0px;
+}
+
+.topic-title-comment {
+  padding-top: 12px;
+}
+
+.topic-story-footer {
+  margin: 25px 0px 18px 0px;
+}
+
+.topic-story {
+  color: #cccccc;
+  padding-top: 27px;
+  font-size: 1.143em;
+  line-height: 1.563em;
+  word-wrap: break-word;
+
+  .topic-edit-history {
+    margin-top: 20px;
+    color: #cccccc !important;
+    font-size: 13px !important;
+  }
+
+}
+
+.topic-title {
+  h2 {
+    font-size: 1.714em;
+    font-weight: normal;
+    color: #FFCD05;
+    line-height: 120%;
+    padding: 27px 0px 9px 0px;
+    word-wrap: break-word;
+    margin: 0;
+  }
+}
+
+.topic-emotion {
+  border-right: solid 1px #486785;
+  margin: 8px 10px 0px 0px;
+  padding-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+
+  .icon-emotion {
+    background-position: -20px -178px;
+    float: left;
+    width: 16px;
+    height: 18px;
+    margin-top: 1px;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    zoom: 1;
+  }
+
+  .emotion-score {
+    margin-left: 1px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .emotion-vote {
+    color: #486785;
+    text-decoration: none;
+  }
+}
+
+  .topic-avatar {
+      white-space: nowrap;
+      text-align: left;
+      margin: 0px 0px 0px 0px;
+      display: inline-block;
+      zoom: 1;
+      vertical-align: top;
+
+      img {
+          width: 32px;
+          height: 32px;
+          float: left;
+          position: relative;
+          top: 0px;
+          left: 0px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .topic-avatar-inner {
+            margin-left: 38px;
+            line-height: 14px;
+            position: relative;
+            top: 3px;
+            font-size: 0.929em;
+
+            .topic-name {
+                color: #90a8d1;
+                text-decoration: none;
+            }
+
+            .topic-timestamp {
+                font-size: 0.929em;
+                color: #90a8d1;
+            }
+        }
+  }
+
+.topic-vote {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 2px;
+  margin-top: 4px;
+
+  .like-score  {
+    color: #486785;
+    line-height: 28px;
+    font-size: 1.857em;
+    margin: 0px 2px 0px 0px;
+    float: left;
+  }
+
+  .icon-heart-like  {
+    border: solid 1px #132e65;
+    float: left;
+    width: 28px;
+    height: 26px;
+    margin: 0 2px 0px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    span {
+      background: url("https://ptcdn.info/images/icon-heart-like.png") no-repeat 0px -1px;
+      float: left;
+      width: 26px;
+      height: 26px;
+      opacity: 0.2;
+    }
+  }
+}
+
+.icon {
+    background: url(https://ptcdn.info/images/icon.png) no-repeat 0px 0px;
+}
+
+.icon-inline {
+    float: left;
+    height: 16px;
+    margin-right: 4px;
+    position: relative;
+    top: 7px;
+    left: 0;
+    width: 16px;
+}
+
+.icon-clock {
+    background-position: 0px -260px;
+    cursor: default;
+}
+
+.emotion-vote-list.alt02 {
+    background: #1C3973;
+    border: solid 1px #13264C;
+}
+
+.emotion-vote-list {
+    background: #282851;
+    border: solid 1px #191933;
+    margin: 7px 0px 0px 0px;
+    color: #999999;
+}
+
+.emotion-vote-list.comment {
+  background: #282851 !important;
+}
+
+.emotion-vote-user{
+    padding: 5px 10px;
+
+    a {
+      text-decoration: none;
+      color: #999999 !important;
+    }
+}
+
+.icon-mini-posttype {
+    background: url("https://ptcdn.info/images/icon-mini-posttype-16x16.png") no-repeat 0px 0px;
+    float: left;
+    height: 17px;
+    margin-right: 2px;
+    position: relative;
+    width: 17px;
+}
+
+.icon-mini-posttype-que {
+    background-position: 0px 0px;
+}

@@ -1,0 +1,40 @@
+.pantip-review-block {
+    background: #25223c;
+    border: 1px solid #6c73a6;
+    position: relative;
+    z-index: 10;
+    clear: left;
+    overflow: hidden;
+    zoom: 1;
+    margin: 20px auto 0;
+    width: 885px;
+}
+
+.pantip-review-header {
+    float: left;
+    width: 100%;
+}
+
+.pantip-review-content {
+    float: left;
+    width: 100%;
+    padding: 0px 5px 10px 5px;
+}
+
+.pantip-review-header-img {
+    float: left;
+    padding: 10px;
+}
+
+.pantip-review-header-more {
+    float: right;
+    padding: 20px 10px 10px 10px;
+}
+
+.pantip-review-thumbnail {
+    float: left;
+    position: relative;
+    width: 280px;
+    height: 250px;
+    margin: 0 6px;
+}

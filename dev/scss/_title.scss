@@ -1,0 +1,44 @@
+.bottomspc {
+  margin-bottom: 30px !important;
+  background: #38355C;
+}
+
+.bottombdr {
+  border-bottom: 1px solid #22203D;
+}
+
+.u-here-wrapper {
+    overflow: hidden;
+    zoom: 1;
+    border-right: solid 1px #353056;
+    float: left;
+    width: 20px;
+    height: 32px;
+
+    .icon-u-here {
+      background: url("https://ptcdn.info/images/icon-u-here.png") no-repeat 0px 0px;
+      display: block;
+      width: 15px;
+      height: 14px;
+      float: left;
+      position: relative;
+      top: 10px;
+      left: 0px;
+    }
+}
+
+.breadcrumb {
+  font-size: 14px;
+  margin: 0;
+  padding: 8px 5px 5px 30px;
+
+  li {
+    display: inline;
+    margin-right: 2px;
+    color: #dbdbdb;
+  }
+}
+
+.breadcrumb-wrapper {
+  height: 32px;
+}

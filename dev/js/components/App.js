@@ -1,16 +1,27 @@
 import React from 'react';
-import UserList from '../containers/user-list';
-import UserDetails from '../containers/user-detail';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom'
+import Header from './Header'
+import FrontRoom from '../containers/FrontRoom'
+import Room from '../containers/Room'
+
 require('../../scss/style.scss');
 
 const App = () => (
-    <div>
-        <h2>User List</h2>
-        <UserList />
-        <hr />
-        <h2>User Details</h2>
-        <UserDetails />
-    </div>
+  <div>
+    <Header />
+    <Router>
+      <Switch>
+        <Route exact path='/' component={FrontRoom}/>
+        <Route path='/topic/:id' component={Room}/>
+      </Switch>
+    </Router>
+
+  </div>
+
 );
 
 export default App;
